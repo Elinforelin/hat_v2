@@ -1,10 +1,6 @@
 import { FC } from "react";
 
-interface ButtonPropsType {
-  title: string;
-  className: string;
-  onClick: () => void;
-}
+import { ButtonPropsType } from "@/components/UI/Button/types";
 export const Button: FC<ButtonPropsType> = ({ title, className, onClick }) => {
   return (
     <button
